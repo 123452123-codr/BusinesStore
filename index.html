@@ -3,9 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
         <title>BusinesStore</title>
     </head>
     <body>
+        <h1>BusinesStore - Store all your business documents for free!</h1>
         <input type="file" name="myFile" id="uploadFile">
         <br>
         <div id="a"></div>
@@ -17,8 +19,6 @@
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-storage.js"></script>
     <script>
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         var firebaseConfig = {
             apiKey: "AIzaSyDodiBUiarLEaXPnz47v1xGWDb4NchBpCc",
             authDomain: "quizzy-cbc2e.firebaseapp.com",
@@ -34,5 +34,8 @@
         firebase.analytics();
         var storage = firebase.storage();
     </script>
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
     <script src="script.js"></script>
 </html>
